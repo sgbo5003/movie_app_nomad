@@ -77,3 +77,27 @@ ex)
 ```
 summary.slice(0, 180)
 ```
+
+# 11/08 공부내용
+
+## **05 Deploying to Github Pages**
+
+### **gh-pages 설치**
+
+**gh-pages**는 나의 웹사이트를 github의 **github page 도메인**에 나타나게 해준다.
+
+### **홈페이지 양식**
+
+https://{your github username}.github.io/{the name of your project in github}
+
+**(소문자 이어야하고, 띄어쓰기 x)**
+
+**npm run build** : **build 폴더**를 얻는 방법
+
+deploy : build 폴더를 upload 한다.
+
+### **<생성 순서>**
+
+먼저 **npm i gh-pages**로 설치 **>** **package.JSON**에 **homepage**를 넣는다 **>** **deploy** 와 **predeploy** 를 만든다
+
+내 주소 : https://sgbo5003.github.io/movie_app_nomad/
