@@ -103,3 +103,19 @@ https://{your github username}.github.io/{the name of your project in github}
 먼저 **npm i gh-pages**로 설치 **>** **package.JSON**에 **homepage**를 넣는다 **>** **deploy** 와 **predeploy** 를 만든다 **>** **npm run build** **>** **npm run deploy**
 
 내 주소 : https://sgbo5003.github.io/movie_app_nomad/
+
+## **06 ROUTING BOUNS**
+
+**react-router-dom** : 네비게이션을 만들어주는 패키지
+
+**라우터** : **url**을 가져다가 확인하고 **컴포넌트**를 가져온다.
+
+ex)
+
+```
+//exact={ture} 를 해야 path의 경로와 정확히 일치하는 component만 보여준다. 하지않으면 전부 보여준다.
+    <HashRouter>
+      <Route path="/" exact={true} component={Home} />
+      <Route path="/about" component={About} />
+    </HashRouter>
+```
