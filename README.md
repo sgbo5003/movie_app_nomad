@@ -94,10 +94,12 @@ https://{your github username}.github.io/{the name of your project in github}
 
 **npm run build** : **build 폴더**를 얻는 방법
 
-deploy : build 폴더를 upload 한다.
+**npm run deploy** : 업데이트
+
+**deploy** : build 폴더를 **upload** 한다.
 
 ### **<생성 순서>**
 
-먼저 **npm i gh-pages**로 설치 **>** **package.JSON**에 **homepage**를 넣는다 **>** **deploy** 와 **predeploy** 를 만든다
+먼저 **npm i gh-pages**로 설치 **>** **package.JSON**에 **homepage**를 넣는다 **>** **deploy** 와 **predeploy** 를 만든다 **>** **npm run build** **>** **npm run deploy**
 
 내 주소 : https://sgbo5003.github.io/movie_app_nomad/
