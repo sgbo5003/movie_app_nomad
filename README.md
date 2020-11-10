@@ -119,3 +119,28 @@ ex)
       <Route path="/about" component={About} />
     </HashRouter>
 ```
+
+# 11/10 일자 공부내용
+
+## 06 ROUTING BONUS
+
+**router 밖에서 Link를 쓸 수 없다.**
+
+**리액트 라우터 exact**
+
+```
+//exact={ture} 를 해야 path의 경로와 정확히 일치하는 component만 보여준다. 하지않으면 전부 보여준다.
+
+<Route path="/" exact={true} component={Home} />
+```
+
+**리액트 라우터 Redirect**
+
+: 페이지를 **리다이렉트** 해준다.
+(최초 요청을 받은 첫 번째 URL에서 클라이언트에 Redirect할 두 번째 URL을 리턴하고, 클라이언트는 전혀 새로운 요청을 생성하여 두 번째 URL에 다시 요청을 보낸다.)
+
+### +css 완성
+
+<br>
+
+## -마무리-
